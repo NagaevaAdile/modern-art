@@ -1,0 +1,64 @@
+.block {
+    max-width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+
+    @include mobile {
+        margin-top: 40px;
+        margin-left: 10px;
+        max-width: 667px;
+    }
+}
+
+.block__info img {
+    @include mobile {
+        width: 355px;
+        height: 420px;
+    }
+}
+
+.block p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.block__info {
+    display: flex;
+    background-color: #f2f2f2;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    line-height: 1.5;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+}
+
+.infoBlock {
+    font-size: 20px;
+    padding: 40px;
+    align-self: center;
+
+    @include mobile {
+        padding: 10px;
+    }
+}
+
+.infoBlock span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.infoBlock p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.kabakov {
+    @include mobile {
+        width: 345px !important;
+        height: 420px !important;
+    }
+}
