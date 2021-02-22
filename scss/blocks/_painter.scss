@@ -11,7 +11,7 @@
     font-size: 46px;
 
     @include mobile {
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 
@@ -24,8 +24,8 @@
     transition: 1s;
 
     @include mobile {
-        width: 365px;
-        height: 365px;
+        width: 350px;
+        height: auto;
         margin-left: 15px;
     }
 }
@@ -37,6 +37,7 @@
 
     @include mobile {
         max-width: 100%;
+        font-size: 16px;
     }
 }
 

@@ -47,7 +47,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
-    margin-right: 150px;
+    margin-left: 100px;
 
     @include mobile {
         flex-direction: column;
@@ -55,7 +55,17 @@
     }
 }
 
-@include tablets {
+.box__akula-mini {
+    width: 55%;
+    height: auto;
+}
+
+.box__becon {
+    width: 45%;
+    height: auto;
+}
+
+@include mobile {
     .akulaMini {
         width: 365px;
         height: 365px;

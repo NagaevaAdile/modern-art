@@ -13,12 +13,18 @@
 
 .first__first {
     display: flex;
-    flex-wrap: wrap;
+
+    @include mobile {
+        flex-wrap: wrap;
+    }
 }
 
 .first__second {
     display: flex;
-    flex-wrap: wrap;
+
+    @include mobile {
+        flex-wrap: wrap;
+    }
 }
 
 .first__heading {
@@ -31,12 +37,14 @@
 
     @include mobile {
         font-size: 30px;
+        width: 100%;
     }
 }
 
 .imgP__first {
     @include mobile {
         margin-bottom: 50px;
+        margin-left: 0;
     }
 }
 
@@ -50,7 +58,7 @@
         margin-top: 20px;
         width: 220px;
         height: 237px;
-        margin-left: 80px;
+        margin-left: 0;
     }
 }
 
@@ -85,9 +93,9 @@
     min-width: 300px;
 
     @include mobile {
-        text-align: right;
+        text-align: left;
         margin-bottom: 20px;
-        font-size: 15px;
+        font-size: 13px;
         margin-right: 20px;
     }
 }
@@ -99,5 +107,6 @@
 
     @include mobile {
         margin-right: 10px;
+        font-size: 16px;
     }
 }
