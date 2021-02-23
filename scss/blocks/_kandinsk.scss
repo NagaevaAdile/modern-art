@@ -9,15 +9,14 @@
 }
 
 .kand__img {
-    width: 1530px;
-    height: 1209px;
+    width: 100%;
+    height: auto;
     transition: 1s;
     margin-left: 0;
 
     @include mobile {
-        width: 365px;
-        height: 365px;
-        margin-left: 10px;
+        width: 100%;
+        height: auto;
     }
 }
 

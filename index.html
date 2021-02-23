@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Почему писсуар, груда мусора и чучело акулы — искусство</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-
     <div class="container">
         <div class="first">
 
@@ -35,7 +36,8 @@
 
             <div class="first__text">Эти работы сложно назвать искусством: такой&nbsp;же писсуар можно найти почти
                 в&nbsp;любом общественном туалете, мусор есть&nbsp;везде&nbsp;— мы всё время его производим, акула
-                в&nbsp;контейнере напоминает экспонат в&nbsp;зоологическом музее. Это не&nbsp;похоже на&nbsp;искусство,
+                в&nbsp;контейнере напоминает экспонат в&nbsp;зоологическом музее. Это не&nbsp;похоже
+                на&nbsp;искусство,
                 которое в&nbsp;культуре считается классическим:
             </div>
         </div>
@@ -63,21 +65,76 @@
             </div>
         </div>
 
-        <div class="second__text">
-            <div class="second__textB">
-                <p>Работы Боттичелли, Рафаэля, Микеланджело и&nbsp;Веласкеса&nbsp;— шедевры.
-                    Писсуар, мусор и&nbsp;акулу искусствоведы тоже считают шедеврами. С&nbsp;этим можно согласиться,
-                    если знать контекст: в&nbsp;чём художник жил, как воспринимал мир, какое искусство его окружало.</p>
-                <p>Писсуар, ящик с&nbsp;мусором и&nbsp;акула создавались в&nbsp;условиях нового искусства 20&nbsp;века.
-                    Поэтому сначала рассмотрим три другие важные картины этого времени: «Авиньонские девицы», «Первая
-                    абстрактная картина», «Чёрный квадрат».</p>
+        <div class="second__mobile-version container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="img/venera.jpg" class="d-block w-100" alt="venera">
+                                <p class="p__first">Рождение Венеры </p>
+                                <p class="p__first">Сандро Боттичелли, 1482—1486</p>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="img/gracii.jpg" class="d-block w-100" alt="gracii">
+                                <p class="p__first">Три грации</p>
+                                <p class="p__first">Рафаэль Санти, около 1504</p>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/adam.png" class="d-block w-100" alt="adam">
+                                <p class="p__first">Сотворение Адама</p>
+                                <p class="p__first">Микеланджело Буонарроти, около 1511</p>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/menin.jpg" class="d-block w-100" alt="menin">
+                                <p class="p__first">Менины</p>
+                                <p class="p__first">Диего Веласкес, 1656</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="second__textS">«Контекст — это общий смысл <br> социально-исторических
-                и&nbsp;культурных условий,
-                которые позволяют уточнить смысловое значение результатов деятельности человека». <br>
-                Большой толковый словарь по&nbsp;культурологии, Кононенко Б. И.</div>
         </div>
+    </div>
 
+
+
+    <div class="second__text container">
+        <div class="second__textB">
+            <p>Работы Боттичелли, Рафаэля, Микеланджело и&nbsp;Веласкеса&nbsp;— шедевры.
+                Писсуар, мусор и&nbsp;акулу искусствоведы тоже считают шедеврами. С&nbsp;этим можно согласиться,
+                если знать контекст: в&nbsp;чём художник жил, как воспринимал мир, какое искусство его окружало.</p>
+            <p>Писсуар, ящик с&nbsp;мусором и&nbsp;акула создавались в&nbsp;условиях нового искусства 20&nbsp;века.
+                Поэтому сначала рассмотрим три другие важные картины этого времени: «Авиньонские девицы», «Первая
+                абстрактная картина», «Чёрный квадрат».</p>
+        </div>
+        <div class="second__textS">«Контекст — это общий смысл <br> социально-исторических
+            и&nbsp;культурных условий,
+            которые позволяют уточнить смысловое значение результатов деятельности человека». <br>
+            Большой толковый словарь по&nbsp;культурологии, Кононенко Б. И.</div>
+    </div>
+
+    <div class="container">
         <img src="img/avinDTT.jpg" class="painter__imgAD" alt="Авиньонские девицы»">
         <div class="block__painter">
             <p class="painter__heading">Авиньонские девицы</p>
@@ -328,14 +385,16 @@
             </div>
 
             <img src="img/toSpace.jpg" alt="Человек, улетевший в космос из своей комнаты" class="toSpace">
-            <p>Инсталляция «Человек, который улетел в космос из своей комнаты». <br> Это советская мечта о покорении
+            <p class="toSpace-text">Инсталляция «Человек, который улетел в космос из своей комнаты». <br> Это советская
+                мечта о покорении
                 космоса
                 и история о том, как человек <br> избежал унизительного существования в коммунальной квартире. <br>
                 Илья Кабаков, 1982
             </p>
             <div class="toilet">
                 <img src="img/toilet.jpg" alt="Инсталяция Туалет">
-                <p>Инсталляция «Туалет»: уютная советская гостиная <br> в одном помещении с общественным туалетом. <br>
+                <p class="toSpace-text">Инсталляция «Туалет»: уютная советская гостиная <br> в одном помещении с
+                    общественным туалетом. <br>
                     Илья и Эмилия Кабаковы, 1992</p>
             </div>
 
@@ -391,11 +450,11 @@
 
         <div class="block__akula">
             <div class="box__akula-mini"><img src="img/shark.jpg" alt="Акула" class="akulaMini">
-                <p>«Физическая невозможность смерти в сознании живущего» <br>
+                <p class="block__akula-text">«Физическая невозможность смерти в сознании живущего» <br>
                     Дэмьен Хёрст, 1991</p>
             </div>
             <div class="box__becon"><img src="img/bacon.jpg" alt="Фрэнсис Бэкон" class="becon">
-                <p>«Этюд по портрету папы Иннокентия X работы Веласкеса» <br>
+                <p class="block__akula-text">«Этюд по портрету папы Иннокентия X работы Веласкеса» <br>
                     Фрэнсис Бэкон, 1953</p>
             </div>
         </div>
@@ -437,12 +496,12 @@
             Если знать контекст любого произведения искусства, гораздо проще понимать и оценивать его. Узнать контекст
             помогают:
             <ul>
-                <li>биография художника;</li>
-                <li>воспоминания друзей и близких о жизни художника;</li>
-                <li>историческая справка о времени, когда работал художник;</li>
-                <li>книги и лекции искусствоведов;</li>
-                <li>книги критиков;</li>
-                <li>работы философов времени, когда работал художник.</li>
+                <li class="end__li">биография художника;</li>
+                <li class="end__li">воспоминания друзей и близких о жизни художника;</li>
+                <li class="end__li">историческая справка о времени, когда работал художник;</li>
+                <li class="end__li">книги и лекции искусствоведов;</li>
+                <li class="end__li">книги критиков;</li>
+                <li class="end__li">работы философов времени, когда работал художник.</li>
             </ul>
         </div>
 
@@ -464,12 +523,13 @@
                 <p>Адиле Нагаева — вёрстка</p>
                 <p>Для Школы редакторов, 2020 год</p>
             </div>
-
         </div>
     </div>
     </div>
-
-    <script src="main.js"></script>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

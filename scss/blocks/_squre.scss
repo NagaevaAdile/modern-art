@@ -8,15 +8,14 @@
 }
 
 .squre__img {
-    width: 1500px;
-    height: 1503px;
+    width: 100%;
+    height: auto;
     margin-top: 100px;
     transition: 1s;
 
     @include mobile {
-        width: 365px;
-        height: 365px;
-        margin-left: 10px;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -35,6 +34,10 @@
     margin-bottom: 10px;
     max-width: 800px;
     line-height: 1.5;
+
+    @include mobile {
+        font-size: 15px;
+    }
 }
 
 .squre__infoS {
@@ -43,6 +46,13 @@
     align-self: flex-end;
     padding-bottom: 100px;
     padding-right: 105px;
+
+    @include mobile {
+        width: 100%;
+        padding-right: 0;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
 }
 
 .squre__gallery {
@@ -53,6 +63,12 @@
     @include mobile {
         margin-left: 5px;
         margin-right: 5px;
+    }
+}
+
+.squre__gallery p {
+    @include mobile {
+        font-size: 13px;
     }
 }
 
@@ -71,10 +87,11 @@
     justify-content: space-between;
     flex-direction: column;
     padding-bottom: 50px;
-    padding-right: 105px;
 
     @include mobile {
         align-self: flex-end;
+        font-size: 15px;
+        padding-bottom: 0;
     }
 }
 
@@ -82,7 +99,8 @@
     padding-bottom: 50px;
 
     @include mobile {
-        padding-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 }
 
@@ -94,8 +112,8 @@
 
 iframe {
     @include mobile {
-        width: 355px;
-        height: 200px;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -106,6 +124,10 @@ iframe {
 .video_name {
     font-size: 20px;
     margin-bottom: 10px;
+
+    @include mobile {
+        font-size: 15px;
+    }
 }
 
 .squre__video div {
@@ -113,39 +135,56 @@ iframe {
     max-width: 60%;
     margin-top: 50px;
     line-height: 1.5;
+
+    @include mobile {
+        font-size: 15px;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+
+.squre__video p {
+    @include mobile {
+        font-size: 13px;
+    }
 }
 
 .piss__img {
-    width: 1520px;
-    height: 1603px;
+    width: 90%;
+    height: auto;
     margin-top: 100px;
     transition: 1s;
 
     @include mobile {
-        width: 365px;
-        height: 420px;
-        margin-left: 5px;
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
     }
 }
 
 .squre__infoP {
-    width: 300px;
+    width: 20%;
     font-size: 16px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-right: 105px;
+
+    @include mobile {
+        width: 100%;
+        font-size: 15px;
+    }
 }
 
 .box__img {
-    width: 1229px;
-    height: 929px;
+    width: 90%;
+    height: auto;
     margin-top: 100px;
     transition: 1s;
 
     @include mobile {
-        width: 365px;
-        height: 208px;
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
     }
 }
 
@@ -153,17 +192,17 @@ iframe {
     margin-bottom: -400px;
 
     @include mobile {
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
 
 .link__box {
     width: 270px;
-    padding-right: 105px;
 
     @include mobile {
-        margin-top: 50px;
+        margin-top: 20px;
+        font-size: 15px;
     }
 }
 
@@ -175,5 +214,11 @@ iframe {
 
     @include mobile {
         width: 100%;
+    }
+}
+
+.toSpace-text {
+    @include mobile {
+        font-size: 13px;
     }
 }
