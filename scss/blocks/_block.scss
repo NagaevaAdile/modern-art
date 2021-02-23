@@ -12,8 +12,8 @@
 
 .block__info img {
     @include mobile {
-        width: 355px;
-        height: 420px;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -21,6 +21,11 @@
     font-size: 20px;
     margin-bottom: 10px;
     width: 80%;
+
+    @include mobile {
+        font-size: 15px;
+        width: 100%;
+    }
 }
 
 .block__info {
@@ -33,7 +38,16 @@
     @include mobile {
         display: flex;
         flex-direction: column;
-        margin-right: 10px;
+        margin-right: 24px;
+    }
+}
+
+.block__info img {
+    width: 50%;
+    height: auto;
+
+    @include mobile {
+        width: 100%;
     }
 }
 
@@ -44,12 +58,17 @@
 
     @include mobile {
         padding: 10px;
+        font-size: 15px;
     }
 }
 
 .infoBlock span {
     font-size: 18px;
     font-weight: bold;
+
+    @include mobile {
+        font-size: 15px;
+    }
 }
 
 .infoBlock p {
@@ -59,7 +78,7 @@
 
 .kabakov {
     @include mobile {
-        width: 345px !important;
-        height: 420px !important;
+        width: 100% !important;
+        height: auto !important;
     }
 }

@@ -8,17 +8,31 @@
     line-height: 1.5;
 
     @include mobile {
-        max-width: 90%;
+        max-width: 100%;
         padding: 30px;
         padding-bottom: 50px;
         margin-left: 10px;
+        font-size: 15px;
     }
 }
 
-.end li {
+.end__li {
     list-style: none;
     padding-left: 50px;
     margin-top: 8px;
+    position: relative;
+
+    @include mobile {
+        padding-left: 20px;
+    }
+}
+
+@include mobile {
+    .end__li::before {
+        position: absolute;
+        content: "—";
+        left: 0;
+    }
 }
 
 .footer {
@@ -32,6 +46,10 @@
 .footer p {
     font-size: 18px;
     margin-top: 5px;
+
+    @include mobile {
+        font-size: 15px;
+    }
 }
 
 .special {

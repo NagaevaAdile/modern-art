@@ -24,15 +24,14 @@
 }
 
 .akula__img {
-    width: 1865px;
-    height: 791px;
+    width: 110%;
+    height: auto;
     margin-bottom: 25px;
     transition: 1s;
-    margin-left: -200px;
 
     @include mobile {
-        width: 365px;
-        height: 150px;
+        width: 100%;
+        height: auto;
         margin-left: 5px;
         margin-bottom: 0;
     }
@@ -41,6 +40,11 @@
 .herst {
     align-self: flex-end;
     margin-bottom: 50px;
+
+    @include mobile {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
 }
 
 .block__akula {
@@ -67,13 +71,28 @@
 
 @include mobile {
     .akulaMini {
-        width: 365px;
-        height: 365px;
+        width: 100%;
+        height: auto;
     }
 
     .becon {
-        width: 365px;
-        height: 430px;
+        width: 100%;
+        height: auto;
         margin-top: 20px;
     }
+
+    .box__akula-mini {
+        width: 100%;
+        height: auto;
+    }
+
+    .box__becon {
+        width: 100%;
+        height: auto;
+    }
+
+    .block__akula-text {
+        font-size: 13px;
+    }
+
 }

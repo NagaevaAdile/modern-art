@@ -11,22 +11,22 @@
     font-size: 46px;
 
     @include mobile {
-        font-size: 20px;
+        font-size: 18px;
+        line-height: 1.2;
     }
 }
 
-
 .painter__imgAD {
-    width: 1430px;
-    height: 1481px;
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
     margin-top: 100px;
     transition: 1s;
 
     @include mobile {
-        width: 350px;
+        width: 100%;
         height: auto;
-        margin-left: 15px;
+        margin-top: 0;
     }
 }
 
@@ -37,7 +37,7 @@
 
     @include mobile {
         max-width: 100%;
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -48,4 +48,8 @@
 .painter__info p {
     margin-bottom: 8px;
     line-height: 1.5;
+
+    @include mobile {
+        line-height: 1.2;
+    }
 }
