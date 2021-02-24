@@ -10,9 +10,16 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .container {
     max-width: 90%;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
     margin: 0 10px;
   }
 }
@@ -188,7 +195,7 @@ input {
   margin-left: 100px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .first {
     display: flex;
     flex-wrap: wrap;
@@ -200,7 +207,7 @@ input {
   display: flex;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .first__first {
     flex-wrap: wrap;
   }
@@ -210,7 +217,7 @@ input {
   display: flex;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .first__second {
     flex-wrap: wrap;
   }
@@ -225,7 +232,7 @@ input {
   letter-spacing: 0.5px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .first__heading {
     font-size: 30px;
     width: 100%;
@@ -237,7 +244,7 @@ input {
   margin-left: 88px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .imgP__first {
     width: 100%;
     margin-bottom: 50px;
@@ -251,7 +258,7 @@ input {
   height: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .imgP__first img {
     margin-top: 20px;
     margin-left: 0;
@@ -263,7 +270,7 @@ input {
   margin-left: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .imgB__first {
     margin-left: 0;
     width: 100%;
@@ -276,7 +283,7 @@ input {
   margin-top: 16px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .imgB__first img {
     width: 100%;
     height: auto;
@@ -289,7 +296,7 @@ input {
   width: 70%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .imgA__first {
     margin-top: 20px;
     width: 100%;
@@ -305,7 +312,7 @@ input {
   text-align: right;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .p__first {
     text-align: left;
     margin-top: 5px;
@@ -321,7 +328,7 @@ input {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .first__text {
     width: 100%;
     margin-right: 10px;
@@ -336,19 +343,19 @@ input {
   margin-left: 100px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second {
     display: none;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second {
     margin-left: 15px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second p {
     font-size: 13px;
   }
@@ -393,7 +400,7 @@ input {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second__text {
     flex-direction: column;
     margin-left: 5px;
@@ -407,7 +414,7 @@ input {
   letter-spacing: 1.55;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second__textB {
     margin-left: 15px;
     max-width: 100%;
@@ -426,7 +433,7 @@ input {
   padding-top: 60px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second__textS {
     margin-left: 15px;
     font-size: 14px;
@@ -439,7 +446,7 @@ input {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .second__mobile-version {
     display: block;
     height: 300px;
@@ -450,7 +457,7 @@ input {
   margin-left: 100px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block__painter {
     margin-left: 10px;
     margin-right: 15px;
@@ -461,7 +468,7 @@ input {
   font-size: 46px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .painter__heading {
     font-size: 18px;
     line-height: 1.2;
@@ -476,7 +483,7 @@ input {
   transition: 1s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .painter__imgAD {
     width: 100%;
     height: auto;
@@ -490,7 +497,7 @@ input {
   max-width: 54%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .painter__info {
     max-width: 100%;
     font-size: 15px;
@@ -506,7 +513,7 @@ input {
   line-height: 1.5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .painter__info p {
     line-height: 1.2;
   }
@@ -518,7 +525,7 @@ input {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block {
     margin-top: 40px;
     margin-left: 10px;
@@ -526,7 +533,7 @@ input {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block__info img {
     width: 100%;
     height: auto;
@@ -539,7 +546,7 @@ input {
   width: 80%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block p {
     font-size: 15px;
     width: 100%;
@@ -554,7 +561,7 @@ input {
   line-height: 1.5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block__info {
     display: flex;
     flex-direction: column;
@@ -567,7 +574,7 @@ input {
   height: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block__info img {
     width: 100%;
   }
@@ -579,7 +586,7 @@ input {
   align-self: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .infoBlock {
     padding: 10px;
     font-size: 15px;
@@ -591,7 +598,7 @@ input {
   font-weight: bold;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .infoBlock span {
     font-size: 15px;
   }
@@ -602,14 +609,14 @@ input {
   padding-top: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .kabakov {
     width: 100% !important;
     height: auto !important;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .picasso p {
     font-size: 22px;
     margin-bottom: 60px;
@@ -636,7 +643,7 @@ input {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .kandinsk {
     margin-left: 10px;
     margin-top: 20px;
@@ -650,7 +657,7 @@ input {
   margin-left: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .kand__img {
     width: 100%;
     height: auto;
@@ -666,7 +673,7 @@ input {
   max-width: 680px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .other {
     margin-left: 20px;
   }
@@ -677,7 +684,7 @@ input {
   margin-top: 25px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre {
     margin-left: 10px;
   }
@@ -690,7 +697,7 @@ input {
   transition: 1s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__img {
     width: 100%;
     height: auto;
@@ -703,7 +710,7 @@ input {
   margin-top: 25px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__info {
     flex-direction: column;
   }
@@ -716,7 +723,7 @@ input {
   line-height: 1.5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__infoB p {
     font-size: 15px;
   }
@@ -730,7 +737,7 @@ input {
   padding-right: 105px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__infoS {
     width: 100%;
     padding-right: 0;
@@ -745,14 +752,14 @@ input {
   margin-bottom: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__gallery {
     margin-left: 5px;
     margin-right: 5px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__gallery p {
     font-size: 13px;
   }
@@ -763,7 +770,7 @@ input {
   height: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__gallery img {
     width: 100%;
   }
@@ -777,7 +784,7 @@ input {
   padding-bottom: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__infoSN {
     align-self: flex-end;
     font-size: 15px;
@@ -789,20 +796,27 @@ input {
   padding-bottom: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__infoSN a {
     padding-top: 10px;
     padding-bottom: 20px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__infoB p {
     max-width: 365px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
   iframe {
     width: 100%;
     height: auto;
@@ -818,7 +832,7 @@ input {
   margin-bottom: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .video_name {
     font-size: 15px;
   }
@@ -831,7 +845,7 @@ input {
   line-height: 1.5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__video div {
     font-size: 15px;
     max-width: 100%;
@@ -839,7 +853,7 @@ input {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__video p {
     font-size: 13px;
   }
@@ -852,7 +866,7 @@ input {
   transition: 1s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .piss__img {
     width: 100%;
     height: auto;
@@ -868,7 +882,7 @@ input {
   flex-direction: column;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .squre__infoP {
     width: 100%;
     font-size: 15px;
@@ -882,7 +896,7 @@ input {
   transition: 1s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .box__img {
     width: 100%;
     height: auto;
@@ -894,7 +908,7 @@ input {
   margin-bottom: -400px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .aA {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -905,7 +919,7 @@ input {
   width: 270px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .link__box {
     margin-top: 20px;
     font-size: 15px;
@@ -919,40 +933,40 @@ input {
   font-size: 16px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .toSpace {
     width: 100%;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .toSpace-text {
     font-size: 13px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .third {
     margin-left: 0;
     margin-top: 0;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .third__imgAD {
     width: 365px;
     height: 365px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .third__heading {
     font-size: 30px;
     margin-left: 20px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .third__info {
     font-size: 17px;
     margin-left: 10px;
@@ -965,13 +979,13 @@ input {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .third__pic p {
     font-size: 13px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .third__pic {
     flex-direction: column;
     margin-left: 0;
@@ -984,7 +998,7 @@ input {
   margin-bottom: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .name {
     font-size: 14px;
     margin-bottom: 10px;
@@ -996,7 +1010,7 @@ input {
   width: 30%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .th__img1 {
     width: 100%;
   }
@@ -1006,7 +1020,7 @@ input {
   width: 40%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .th__img2 {
     width: 100%;
   }
@@ -1016,7 +1030,7 @@ input {
   width: 15%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .th__img3 {
     width: 100%;
   }
@@ -1033,7 +1047,7 @@ input {
   margin: 0 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .th__img2 img {
     margin: 15px 0;
     width: 100%;
@@ -1045,7 +1059,7 @@ input {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .th__img3 {
     margin-top: 10px;
   }
@@ -1057,7 +1071,7 @@ input {
   margin-left: 250px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .toilet {
     margin-left: 5px;
   }
@@ -1085,7 +1099,7 @@ input {
   transition: 1s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .akula__img {
     width: 100%;
     height: auto;
@@ -1099,7 +1113,7 @@ input {
   margin-bottom: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .herst {
     font-size: 15px;
     margin-bottom: 0;
@@ -1113,7 +1127,7 @@ input {
   margin-left: 100px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block__akula {
     flex-direction: column;
     margin-left: 5px;
@@ -1130,7 +1144,7 @@ input {
   height: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .akulaMini {
     width: 100%;
     height: auto;
@@ -1163,7 +1177,7 @@ input {
   line-height: 1.5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .end {
     max-width: 100%;
     padding: 30px;
@@ -1180,13 +1194,13 @@ input {
   position: relative;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .end__li {
     padding-left: 20px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .end__li::before {
     position: absolute;
     content: "—";
@@ -1198,7 +1212,7 @@ input {
   margin-left: 100px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .footer {
     margin-left: 20px;
   }
@@ -1209,7 +1223,7 @@ input {
   margin-top: 5px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .footer p {
     font-size: 15px;
   }

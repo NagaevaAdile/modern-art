@@ -115,6 +115,11 @@ iframe {
         width: 100%;
         height: auto;
     }
+
+    @include tablet {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .squre__video {
